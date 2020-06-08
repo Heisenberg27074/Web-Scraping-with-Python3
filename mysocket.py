@@ -16,7 +16,7 @@ mysocket.connect((host,port))
 #encode() is used here as it will go on web must be in the right format,
 #here no parameter is passed inside encode then it will convert into UTF-8 inside your computer everything is UNICODE.
 
-cmd='GET http://data.pr4e.org/intro-short.txt HTTP/1.0\r\n\r\n'.encode()
+cmd='GET http://web.mit.edu/campus-life HTTP/1.0\r\n\r\n'.encode()
 
 #sending the above command on web as a requese
 
